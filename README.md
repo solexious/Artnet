@@ -50,6 +50,7 @@ This lib throttles the maximum send rate to ~40Hz. Unchanged data is refreshed e
   * iface (optional string IP address - bind udp socket to specific network interface)
   * minPackageLength (Minimum length of channels to output. Default ```0```)
   * maxPackageLength (Maximum length of channels to output. Default ```512```)
+  * enabled (Allow sending of data. Default ```true```)
 
 ## Methods
 
