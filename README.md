@@ -47,6 +47,7 @@ This lib throttles the maximum send rate to ~40Hz. Unchanged data is refreshed e
   * host (Default ```"255.255.255.255"```)
   * port (Default ```6454```)
   * refresh (millisecond interval for sending unchanged data to the Art-Net node. Default ```4000```)
+  * frameDelay (minimum millisecond interval between packets. Default ```25```)
   * iface (optional string IP address - bind udp socket to specific network interface)
   * minPackageLength (Minimum length of channels to output. Default ```0```)
   * maxPackageLength (Maximum length of channels to output. Default ```512```)
